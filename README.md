@@ -27,8 +27,8 @@ https://github.com/CIT-Autonomous-Robot-Lab/emcl2_ros2/tree/5a557d4187b384d864c4
 | 担当   | 内容                                                                                                                   | 優先順位 | 
 | ------ | ---------------------------------------------------------------------------------------------------------------------- | -------- | 
 | 池邉   | 外枠担当（ディレクトリ・ファイル構成、GitHub Actions、`ament_cpplint src/ include/`）                                                                 | ①       | 
-| リオン | Dockerfile、Docker image（動作確認用）                                                                                 | ④       | 
-| 臼井   | 集中的にROSが実装されてない部分<br>ExpResetMcl.cpp、ExpResetMcl2.cpp、<br>Mcl.cpp、<br>LikelihoodFieldMap.h、<br>Mcl.h | ③       | 
-| 庄司   | emcl2_node.cpp（パラメータの部分、メッセージの部分）                                                                   | ③       | 
-| ikuo   | 残り全部                                                                                                               | ③       | 
+| リオン | Dockerfile、Docker image（動作確認用）                                                                                 | ⑥       | 
+| 臼井   | 集中的にROSが実装されてない部分<br>ExpResetMcl.cpp、ExpResetMcl2.cpp、<br>Mcl.cpp、<br>LikelihoodFieldMap.h、<br>Mcl.h |   ④     | 
+| 庄司   | emcl2_node.cpp、emcl2_node.hpp（パラメータの部分、メッセージの部分）                                                    | ③       | 
+| ikuo   | 残り全部                                                                                                               | ⑤       | 
 | 藤崎   | パッケージのビルド<br>CMakeLists.txt、package.xml<br>ROS 2のクラスを作成（ROS 2ノードのベースを作る）                  | ②       | 
