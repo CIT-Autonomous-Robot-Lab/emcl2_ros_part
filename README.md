@@ -21,3 +21,14 @@ https://github.com/CIT-Autonomous-Robot-Lab/emcl2_ros2/tree/5a557d4187b384d864c4
 | LikelihoodFieldMap.h | [L11](https://github.com/CIT-Autonomous-Robot-Lab/emcl2_ros2/blob/5a557d4187b384d864c46534e0b0cbd1bc77d246/from_ueda/include/emcl/LikelihoodFieldMap.h#L11), [L18](https://github.com/CIT-Autonomous-Robot-Lab/emcl2_ros2/blob/5a557d4187b384d864c46534e0b0cbd1bc77d246/from_ueda/include/emcl/LikelihoodFieldMap.h#L18) |
 | Mcl.h             | [L15-L16](https://github.com/CIT-Autonomous-Robot-Lab/emcl2_ros2/blob/5a557d4187b384d864c46534e0b0cbd1bc77d246/from_ueda/include/emcl/Mcl.h#L15-L16), [L37](https://github.com/CIT-Autonomous-Robot-Lab/emcl2_ros2/blob/5a557d4187b384d864c46534e0b0cbd1bc77d246/from_ueda/include/emcl/Mcl.h#L37) |
 | emcl2_node.h      | [L18-L20](https://github.com/CIT-Autonomous-Robot-Lab/emcl2_ros2/blob/5a557d4187b384d864c46534e0b0cbd1bc77d246/from_ueda/include/emcl/emcl2_node.h#L18-L20), [L34-L65](https://github.com/CIT-Autonomous-Robot-Lab/emcl2_ros2/blob/5a557d4187b384d864c46534e0b0cbd1bc77d246/from_ueda/include/emcl/emcl2_node.h#L34-L65), [L86-L88](https://github.com/CIT-Autonomous-Robot-Lab/emcl2_ros2/blob/5a557d4187b384d864c46534e0b0cbd1bc77d246/from_ueda/include/emcl/emcl2_node.h#L86-L88) |
+
+## 役割分担
+
+| 担当   | 内容                                                                                                                   | 優先順位 | 
+| ------ | ---------------------------------------------------------------------------------------------------------------------- | -------- | 
+| 池邉   | 外枠担当（ディレクトリ・ファイル構成、GitHub Actions、`ament_cpplint src/ include/`）                                                                 | ①       | 
+| リオン | Dockerfile、Docker image（動作確認用）                                                                                 | ④       | 
+| 臼井   | 集中的にROSが実装されてない部分<br>ExpResetMcl.cpp、ExpResetMcl2.cpp、<br>Mcl.cpp、<br>LikelihoodFieldMap.h、<br>Mcl.h | ③       | 
+| 庄司   | emcl2_node.cpp（パラメータの部分、メッセージの部分）                                                                   | ③       | 
+| ikuo   | 残り全部                                                                                                               | ③       | 
+| 藤崎   | パッケージのビルド<br>CMakeLists.txt、package.xml<br>ROS 2のクラスを作成（ROS 2ノードのベースを作る）                  | ②       | 
